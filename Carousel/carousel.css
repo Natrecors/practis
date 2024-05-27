@@ -1,0 +1,67 @@
+img {
+  width: 100%;
+}
+
+.slide{
+  display: none;
+}
+.height {
+  height: 10px;
+}
+
+.image-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+.next {
+  right: 0;
+}
+
+.previous,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  margin-top: -25px;
+}
+
+
+.captionText {
+  color: #000000;
+  font-size: 14px;
+  position: absolute;
+  padding: 12px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.fa {
+  font-size: 32px;
+}
+
+.fa:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+  color: white;
+}
+
+.footerdot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.active,
+.footerdot:hover {
+  background-color: white;
+}

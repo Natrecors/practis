@@ -1,0 +1,91 @@
+
+body{
+    background-image: url("img/backpage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.wraper{
+    width: 80%;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(215, 231, 198, 0.2) ;
+
+}
+.container-navigation nav ul{
+    display: flex;
+    align-items: center;
+
+}
+.container-navigation nav ul li {
+        margin-left: 20px;
+}
+.container-navigation nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.section1-row{
+    display: flex;
+
+}
+.section1-content{
+    display: flex;
+    width: 33.333%;
+}
+
+
+
+
+.section1-content{
+        background-color: rgba(27, 126, 219, 0.2) ;
+}
+.section1-content .section1-pic{
+    margin-top:0px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.section1-content .section1-text .section1-text-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: #df8b8b;
+
+}
+.section1-content .section1-text .section1-text-description {
+
+    font-size: 15px;
+    color: #999;
+    margin-top: 10px;
+    line-height: 1.6;
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .section1-collection{
+        display: flex;
+    }
+    .section1-row{
+        flex-direction: column;
+    }
+
+    .section1-content{
+        width: fit-content;
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 920px) {
+.section1-collection,.slide{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+}
